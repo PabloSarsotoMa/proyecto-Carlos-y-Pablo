@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var claseProfessional_1 = require("./claseProfessional");
+var professional1 = new claseProfessional_1.Professional("Brad Pitt", 58, 80, 180, false, "Americano", 2, "Actor");
+var professional2 = new claseProfessional_1.Professional("Leonardo Di Caprio", 47, 75, 183, false, "Americano", 1, "Actor");
+var professional3 = new claseProfessional_1.Professional("Scarlett Ingrid Johansson", 37, 58, 160, false, "Americana", 0, "Actriz");
+var professional4 = new claseProfessional_1.Professional("Morgan Freeman", 85, 79, 188, false, "Americano", 1, "Actor");
+professional1.printAll();
+professional2.printAll();
+professional3.printAll();
+professional4.printAll();
