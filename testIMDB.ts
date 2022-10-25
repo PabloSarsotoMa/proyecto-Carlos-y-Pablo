@@ -7,4 +7,6 @@ let movie3:Movie = new Movie ("El lobo de Wall Street",2013,"Estadounidense","Co
 let movies:Movie[] = [movie1,movie2,movie3];
 let imdb1:Imdb = new Imdb(movies);
 let stringImdb = JSON.stringify(imdb1);
+const fs = require("");
+fs.writeFileSync(stringImdb);
 
