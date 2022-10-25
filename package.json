@@ -1,17 +1,22 @@
 {
-  "name": "proyecto-carlos-y-pablo",
+  "name": "proyecto_carlos_pablo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "claseMovie.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pablo y Carlos",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.11.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSarsotoMa/proyecto-Carlos-y-Pablo.git"
   },
-  "dependencies": {
-    "fs": "^0.0.1-security"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloSarsotoMa/proyecto-Carlos-y-Pablo/issues"
+  },
+  "homepage": "https://github.com/PabloSarsotoMa/proyecto-Carlos-y-Pablo#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.5"
   }
 }
