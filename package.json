@@ -18,5 +18,8 @@
   "homepage": "https://github.com/PabloSarsotoMa/proyecto-Carlos-y-Pablo#readme",
   "devDependencies": {
     "@types/node": "^18.11.5"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
